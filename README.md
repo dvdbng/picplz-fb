@@ -1,6 +1,6 @@
 #Picplz-fb
 
-Publishes your Picplz photos to your Facebook account using Facebook native photo system Publishes your Picplz photos to your Facebook account using Facebook native photo system.
+Publishes your Picplz photos to your Facebook account using Facebook native photo system.
 
 #Usage
 
