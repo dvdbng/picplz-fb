@@ -19,7 +19,7 @@ for img in photos:
     if img["id"] not in uploaded:
         caption = img["caption"].encode("utf-8")
         if "place" in img:
-            caption = "%s (%s)" % (caption,img["place"]["name"].encode("utf-8"))
+            caption = "%s (@ %s)" % (caption,img["place"]["name"].encode("utf-8"))
 
         print "uploading ", caption
         uploaded.add(img["id"])
