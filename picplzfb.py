@@ -4,6 +4,8 @@ import urllib,json
 from pyshutils import *
 import fbconsole
 
+cd("/usr/lib/picplz-fb")
+
 fbconsole.AUTH_SCOPE = ['publish_stream',"offline_access"]
 fbconsole.authenticate()
 uploaded = load("picplz-uploaded",set())
